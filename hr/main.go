@@ -60,7 +60,7 @@ func collectUsers() (users []User) {
 	handleError(err)
 
 	// Example line:
-	// cloud_user:x:1002:1003::/home/cloud_user:/bin/bash
+	// user1:x:1002:1003::/home/user1:/bin/bash
 	for _, line := range lines {
 		id, err := strconv.ParseInt(line[2], 10, 64)
 		handleError(err)
