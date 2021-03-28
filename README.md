@@ -39,4 +39,6 @@ Some Go libraries used to implement this tool:
 
 The information we want can be found in the /etc/passwd file. The lines in this file look like this:
 
+~~~
 user1:x:1002:1003::/home/user1:/bin/bash
+~~~
