@@ -1,5 +1,3 @@
-# README
-
 HR is a tool used to export a system's user information. The command will be able to export user names, IDs, home directories, and shells as either JSON or CSV. This command will not include information about system users (users with IDs under 1000).
 
 By default, the command will display the information as JSON to stdout, but the -format flag will allow a person to specify csv as the export type. Additionally, a file can be specified by using the -path flag.
